@@ -1,9 +1,9 @@
 // @flow
 
-import { WelcomeReducer } from '../welcome/redux'
+import { UsersReducer } from '../userList/redux'
 
 export default function createReducers() {
-    return {
-        welcome: WelcomeReducer,
-    }
+  return {
+    usersList: UsersReducer,
+  }
 }
