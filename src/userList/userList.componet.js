@@ -14,7 +14,10 @@ type Props = {
 }
 
 class UserList extends PureComponent<Props, {}> {
-  onEndReachedCalledDuringMomentum: boolean
+  constructor(props) {
+    super(props)
+    this.onEndReachedCalledDuringMomentum = true
+  }
 
   loadingMoreUsers = (): void => {
     if (!this.onEndReachedCalledDuringMomentum && !this.props.loading) {
@@ -56,10 +59,10 @@ class UserList extends PureComponent<Props, {}> {
             }
             keyExtractor={(item: User) => item.id.toString()}
             ListFooterComponent={this.renderFooter}
-            onEndReached={this.loadingMoreUsers}
-            onEndReachedThreshold={0}
+            onEndReachedThreshold={50}
             onMomentumScrollBegin={() => {
               this.onEndReachedCalledDuringMomentum = false
+              this.loadingMoreUsers()
             }}
           />
         </View>
