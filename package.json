@@ -26,6 +26,7 @@
     "react-redux": "^6.0.1",
     "redux": "^4.0.1",
     "redux-actions": "^2.6.5",
+    "redux-mock-store": "^1.5.3",
     "redux-saga": "^1.0.2",
     "saga": "^4.0.0-alpha"
   },
