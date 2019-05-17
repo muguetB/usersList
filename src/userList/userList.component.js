@@ -14,6 +14,8 @@ type Props = {
 }
 
 class UserList extends PureComponent<Props, {}> {
+  onEndReachedCalledDuringMomentum: boolean
+
   constructor(props) {
     super(props)
     this.onEndReachedCalledDuringMomentum = true

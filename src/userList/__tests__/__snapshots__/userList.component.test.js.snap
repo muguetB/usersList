@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserList component should render correctly 1`] = `
+<View>
+  <Text>
+    Waiting for data
+  </Text>
+</View>
+`;

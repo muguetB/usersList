@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react'
 import { fetchUserListAction } from './redux'
 import { connect } from 'react-redux'
-import UserList from './userList.componet'
+import UserList from './userList.component'
 import { Text, View, StyleSheet } from 'react-native'
 
 type Props = {

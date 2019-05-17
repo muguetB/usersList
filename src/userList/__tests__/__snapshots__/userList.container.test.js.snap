@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserList container should render correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "paddingBottom": 20,
+        "paddingTop": 45,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 18,
+        }
+      }
+    >
+      Jesteś na stronie 
+      1
+    </Text>
+  </View>
+  <View>
+    <Text>
+      Waiting for data
+    </Text>
+  </View>
+</View>
+`;

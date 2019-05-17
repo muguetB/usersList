@@ -1,7 +1,7 @@
 // @flow
 import 'react-native'
 import React from 'react'
-import UserList from '../userList.componet'
+import UserList from '../userList.component'
 import renderer from 'react-test-renderer'
 import configureStore from 'redux-mock-store'
 import { Provider } from 'react-redux'
